@@ -1,0 +1,14 @@
+	Describing this lets do by taking a example of searching books in shelf,suppose you have 6 books namely A B C D E F ,and u need to search for book D then u will search from left to right.As you are searching linearly hence this is called linear search algorithm..
+
+Procedure : LINEAR_SEARCH(A,n,x)
+Input : A - array
+        n - number of elements in array A
+        x - element to be searched
+
+Ouput - If A[i]=x,return i as output ,else return Not Found
+
+Steps :
+      1.Return answer as NOT_FOUND 
+      2.for i to n,
+         if A[i]=x,then set answer to i and return i
+      3.Return the value as answer as output.
